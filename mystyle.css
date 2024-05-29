@@ -1,0 +1,63 @@
+html {
+    overflow-x: hidden;
+}
+
+.container .header .img {
+    margin-top: 20px;
+}
+
+.container .header h1 {
+    margin-bottom: 15px;
+}
+
+.container .content h2 {
+    margin-top: 10px;
+}
+
+.container .content a h4 {
+    color: rgb(64,58,96);
+}
+
+.container .content .feature i {
+    font-size: 2.6em;
+}
+
+.container .content .feature a {
+    text-decoration: none;
+    color: black;
+}
+
+.container .content .feature a:hover {
+    text-decoration: underline;
+    transition: .5s;
+}
+
+.container .content .benefit a {
+    text-decoration: none;
+    color: black;
+}
+
+.container .content .benefit a:hover {
+    text-decoration: underline;
+    transition: .5s;
+}
+
+/* Link in its default state */
+a:link {
+    color: black; /* Set the color for links in their default state */
+}
+
+/* Link in its visited state */
+a:visited {
+    color: black; /* Set the color for visited links */
+}
+
+/* Link in its hover state */
+a:hover {
+    color: black; /* Set the color when the link is hovered over */
+}
+
+/* Link in its active state */
+a:active {
+    color: black; /* Set the color when the link is clicked */
+}

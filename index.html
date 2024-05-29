@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./logo-icon-removebg-preview.png">
+    <script src="https://kit.fontawesome.com/cece0bbfcd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./mystyle.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        body::before, body::after {
+            content: "";
+            position: fixed;
+            width: 50%;
+            height: 50%;
+            background-size: contain;
+            background-repeat: no-repeat;
+            opacity: 0.4;
+            z-index: -2;
+        }
+
+        body::before {
+            top: 0;
+            left: 0;
+            background-image: url('./Mask-Group-16.png');
+            background-position: top left;
+        }
+
+        body::after {
+            bottom: 0;
+            right: 0;
+            background-image: url('./Mask-Group-12-1.png');
+            background-position: bottom right;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: rgba(230, 255, 255, 1);
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+            z-index: 1;
+        }
+
+        .header, .footer {
+            text-align: center;
+            background-color: rgb(64, 58, 96);
+            color: #ffffff;
+            padding: 10px 0;
+        }
+
+        .content {
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .content h2 {
+            color: rgb(64, 58, 96);
+        }
+
+        .feature, .benefit {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .feature i {
+            font-size: 3em;
+            margin-right: 15px;
+        }
+
+        .benefit img {
+            max-width: 150px;
+            margin-right: 15px;
+        }
+
+        .media-news {
+            background-color: rgba(230, 255, 255, 1);
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .cta-button {
+            display: block;
+            width: 100%;
+            text-align: center;
+            background-color: rgb(64, 58, 96);
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 0;
+            border-radius: 5px;
+            margin-top: 20px;
+            color: white;
+        }
+
+        .social-icons {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .social-icons i {
+            font-size: 1.3em;
+            margin: 0 10px;
+            color: white;
+        }
+
+        .container .logo {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .logo img {
+            max-width: 200px;
+        }
+
+        html {
+            overflow-x: hidden;
+        }
+
+        .container .header .img {
+            margin-top: 20px;
+        }
+
+        .container .header h1 {
+            margin-bottom: 15px;
+        }
+
+        .container .content h2 {
+            margin-top: 10px;
+        }
+
+        .container .content a h4 {
+            color: rgb(64, 58, 96);
+        }
+
+        .container .content .feature i {
+            font-size: 2.6em;
+        }
+
+        .container .content .feature a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .container .content .feature a:hover {
+            text-decoration: underline;
+            transition: .5s;
+        }
+
+        .container .content .benefit a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .container .content .benefit a:hover {
+            text-decoration: underline;
+            transition: .5s;
+        }
+
+        /* Link in its default state */
+        a:link {
+            color: black;
+        }
+
+        /* Link in its visited state */
+        a:visited {
+            color: black;
+        }
+
+        /* Link in its hover state */
+        a:hover {
+            color: black;
+        }
+
+        /* Link in its active state */
+        a:active {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="backgroundimg"></div>
+        <div class="logo">
+            <img src="cirro_logo_header_2x.png" alt="Air-Suite Logo">
+        </div>
+        
+        <div class="header">
+            <h1>Welcome to Air-Suite</h1>
+        </div>
+        <div class="content">
+            <h2>Discover the Future of Air Management</h2>
+            <p>Explore how Air-Suite revolutionizes air management with state-of-the-art features designed to enhance efficiency, safety, and comfort.</p>
+            <p>Since we are all forced to modernize, may as well use the best system in the market, the one used by regulators making your inspections a breeze</p>
+            <h3 style="color: rgb(64,58,96);">Key Features</h3>
+            <div class="feature">
+                <a href="https://www.youtube.com/watch?v=4e0Ve-22JMA&ab_channel=AirSuiteInc." target="_blank"><i class="fa-regular fa-clock"></i></a>
+                <div>
+                    <a href="https://www.youtube.com/watch?v=4e0Ve-22JMA&ab_channel=AirSuiteInc." target="_blank"><h4>Flight Duty Times</h4></a>
+                    <p>Comply with flight duty times regulations and be notified on limits and exceedances.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <a href="https://www.youtube.com/watch?v=SzBYoUog2Vc&ab_channel=AirSuiteInc." target="_blank"><i class="fa-solid fa-weight-scale"></i></a>
+                <div>
+                    <a href="https://www.youtube.com/watch?v=SzBYoUog2Vc&ab_channel=AirSuiteInc." target="_blank"><h4>Weight and Balance</h4></a>
+                    <p>Quickly and efficiently calculate aircraft weight and balance on or offline using custom aircraft profiles.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <a href="https://www.youtube.com/watch?v=g01MysckdtM&ab_channel=AirSuiteInc." target="_blank"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <div>
+                    <a href="https://www.youtube.com/watch?v=g01MysckdtM&ab_channel=AirSuiteInc." target="_blank"><h4>Safety Management System (SMS)</h4></a>
+                    <p>Be proactive: identify, assess, and eliminate risks and hazards.</p>
+                </div>
+            </div>
+            <div class="feature">
+                <a href="https://www.youtube.com/watch?v=nue0iGzNQZI&ab_channel=AirSuiteInc." target="_blank"><i class="fa-regular fa-map"></i></a>
+                <div>
+                    <a href="https://www.youtube.com/watch?v=nue0iGzNQZI&ab_channel=AirSuiteInc." target="_blank"><h4>Maps and Charts</h4></a>
+                    <p>Gain full navigation, custom waypoints and consult and customize aviation charts at any time,</p>
+                </div>
+            </div>
+            <h3 style="color: rgb(64,58,96);">Benefits</h3>
+            <div class="benefit">
+                <a href="https://air-suite.com/cirro/benefits/"><img src="Component-1-–-1.jpg" alt="All-in-one Software"></a>
+                <div>
+                    <a href="https://air-suite.com/cirro/benefits/"><h4>All-in-one Software</h4></a>
+                    <p>Cirro simplifies your operations by replacing multiple apps with an all-in-one solution, guiding you through every step from flight planning to billing.</p>
+                </div>
+            </div>
+            <div class="benefit">
+                <a href="https://air-suite.com/cirro/benefits/"><img src="ipadtouch.jpg" alt="Ops Collaboration"></a>
+                <div>
+                    <a href="https://air-suite.com/cirro/benefits/"><h4>Ops Collaboration</h4></a>
+                    <p>Cirro enables seamless communication among all team members, ensuring everyone stays informed and coordinated effortlessly.</p>
+                </div>
+            </div>
+            <div class="benefit">
+                <a href="https://air-suite.com/cirro/benefits/"><img src="watch.jpg" alt="Offline Functionality"></a>
+                <div>
+                    <a href="https://air-suite.com/cirro/benefits/"><h4>Offline Functionality</h4></a>
+                    <p>Cirro's offline mode ensures continuous access and auto-syncs data when service is restored, wherever you are.</p>
+                </div>
+            </div>
+            <div class="benefit">
+                <a href="https://air-suite.com/cirro/benefits/"><img src="Group-358.png" alt="Cross-Platform Capability"></a>
+                <div>
+                    <a href="https://air-suite.com/cirro/benefits/"><h4>Cross-Platform Capability</h4></a>
+                    <p>Cirro works seamlessly on iOS, Android, PC, and Mac, across all devices: mobile, tablet, laptop, and desktop.</p>
+                </div>
+            </div>
+            <h3 style="color: rgb(64,58,96);">Media and News</h3>
+            <div class="media-news">
+                <h4 style="color: rgb(64,58,96);">Cirro Officially Launches TDG Module</h4>
+                <p>Cirro by AirSuite launched the first, one-of-a-kind digital Transportation of Dangerous Goods (TDG) module in partnership with Verity DG Consulting Inc. The new module is now included in the Cirro by AirSuite Operations Flight Management System.</p>
+                <p><a href="https://air-suite.com/cirro-officially-launches-tdg-module/" target="_blank">Read more</a></p>
+            </div>
+            <div class="media-news">
+                <h4 style="color: rgb(64,58,96);">AirSuite awarded multi-year federal contract for its Cirro flight operations software</h4>
+                <p>Thunder Bay, April 12, 2024 – Cirro by AirSuite, an innovator in aviation operations software, is pleased to announce that its flight operations management system has been selected for use by the Aircraft Services Directorate, the Air Operator within Transport Canada.</p>
+                <p><a href="https://air-suite.com/airsuite-awarded-multi-year-federal-contract-for-its-cirro-flight-operations-software/" target="_blank">Read more</a></p>
+            </div>
+
+            <a href="mailto:sales@air-suite.com" class="cta-button" style="color: #ffffff;">Contact Us</a>
+            <a href="https://air-suite.com" class="cta-button" style="color: #ffffff;">Visit Our Website</a>
+        </div>
+        <div class="footer">
+            <p>Follow Us:</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/airsuiteinc"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://x.com/AirSuiteInc"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.linkedin.com/company/airsuite-inc-"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.youtube.com/@Airsuiteinc"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.instagram.com/airsuite_inc"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <p>Contact:</p>
+            <p style="color: white;"><i class="fa-solid fa-phone"></i> &nbsp; +1.888.977.7270</p>
+            <p>&copy; 2024 Air-Suite | <a href="https://air-suite.com/privacy" style="color: #ffffff;">Privacy Policy</a> | <a href="https://air-suite.com/terms" style="color: #ffffff;">Terms of Service</a></p>
+        </div>
+    </div>
+</body>
+</html>
+
